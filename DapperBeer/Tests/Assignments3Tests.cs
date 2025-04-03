@@ -68,7 +68,7 @@ public class Assignments3Tests : TestHelper
     // 3.8 Test
     [Test]
     public async Task GetAllBrewersIncludeBeersThenIncludeCafesTest()
-    {
+    { 
         List<Brewer> allBrewersIncludeBeersThenIncludeCafes = Assignments3.GetAllBrewersIncludeBeersThenIncludeCafes();
         allBrewersIncludeBeersThenIncludeCafes.Should().HaveCount(677);
         List<Brewer> brewersWithBeersServedInMultipleCafes =
